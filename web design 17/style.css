@@ -1,0 +1,226 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Noto+Sans+JP&family=Roboto&display=swap');
+/*font-family: font-family: 'Lobster', cursive;
+/*font-family:
+font-family: 'Noto Sans JP', sans-serif;
+font-family: 'Roboto', sans-serif;*/
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.navbar{
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    padding: 0.7rem;
+    position: sticky;
+    top: 0;
+}
+.logo{
+    font-family: 'Lobster', cursive;
+
+}
+.color-text{
+    color: #00a4ad;
+}
+.navbar ul{
+    display: flex;
+
+}
+.navbar ul li{
+    list-style: none;
+}
+.navbar ul li a{
+    text-decoration: none;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    padding: 1rem;
+    transition: 0.5s;
+    margin-right: 20px;
+    
+}
+.navbar ul li a:hover{
+    background-color: #00a4ad;
+}
+.header{
+    background: url(1.jpg);
+    height: 95vh;
+    background-repeat: no-repeat;
+    background-position:center;
+    color: white;
+    background-size: cover;
+
+}
+.header div{
+    background-color: rgba(0,0,0,0.7);
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Noto sans JP',sans-serif;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.head-text{
+    font-size: 3rem;
+    margin-bottom: 0.6rem;
+}
+.para1{
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+}
+.btn{
+    color: white;
+    background: #00a4ad;
+    padding: 0.8rem;
+    width: 6.7rem;
+    border: none;
+    font-size: 16px;
+    border-radius: 5px;
+
+
+}
+#Services{
+    display: flex;
+    flex: 1;
+}
+.container{
+    margin: 10px auto;
+    width: 74rem;
+}
+.cards{
+    text-align: center;
+    padding: 10px 10px;
+}
+.cards .card-h{
+    font-family: 'Roboto',sans-serif;
+    margin: 10px;
+    font-weight: 600;
+    font-size: 25px;
+    color: #00a4ad;
+}
+
+
+.cards .cards-p{
+    font-family: 'Noto Sans JP', sans-serif;
+    font-size: 16px;
+    text-align: center;
+    margin: 10px auto;
+}
+.cards i{
+    background-color: #00a4ad;
+    padding: 2rem;
+    border-radius:4rem;
+    margin-bottom: 10px;
+}
+#About{
+    background: url(2.jpg);
+    height: 90vh;
+    background-size: cover;
+    
+}
+.about{
+    height:100%;
+    background-color: rgba(0,0,0,0.7);
+    
+    
+}
+.about-h{
+    color: #00a4ad;
+    text-align:center;
+    align-items:center;
+    padding: 8rem 6rem 0 45rem;
+    font-family: 'Lobstar', cursive;
+    font-size: 2.5rem;
+   
+}
+.about-p{
+    color: #efefef;
+    margin: 20px;
+    padding: 8rem 15rem 0 45rem;
+    font-family: 'roboto', sans-serif;
+    font-size: 18px;
+    margin-top: -70px;
+    text-align: justify;
+}
+.about-btn{
+    padding: 0.8rem;
+    margin: 1rem 6rem 0 0;
+    float: right;
+    font-family: 'Noto Sans JP', sans-serif;
+    width:7.7rem;
+    background:#00a4ad;
+    color:white;
+    font-size:16px;
+    border-radius: 5px;
+    
+    
+    
+}
+#img{
+    background: url(11.png);
+    height: 100vh;
+    background-size: cover;
+    height: 40rem;
+    width: 50rem;
+
+}
+.form{
+    text-align: right;
+    margin-left: 50rem;
+    margin-top: 9.5rem;
+
+}
+input{
+    height: 3.4rem;
+    width: 30rem;
+    border: 10px solid #00a4ad;
+}
+.contact-h{
+    font-size: 3rem;
+    font-family: 'roboto',sans-serif;
+    text-align: right;
+    color: #00a4ad;
+    margin-top: 10px;
+}
+label{
+    font-size: 1rem;
+    font-family: 'roboto',sans-serif;
+    color: black;
+    margin-bottom: 1px;
+}
+.contact-btn{
+    padding: 0.7rem;
+    background-color: #4e8598;
+    margin-top: 1rem;
+    width: 6.9rem;
+    color: white;
+    font-size: 15px;
+    font-family: 'Noto Sans JP',sans-serif;
+    border-radius: 4px;
+    transition: 0.3s;
+}
+.contact-btn:hover{
+    background-color: #00a4ad;
+    color: #000;
+}
+footer{
+    background-color: #4e8598;
+    text-align: center;
+}
+footer h1{
+    font-family: 'Lobstar', cursive;
+    color: white;
+    margin-bottom: 2px;
+}
+footer p{
+    font-size: 1.2rem;
+    color: #efefef;
+
+}
+
+

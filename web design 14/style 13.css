@@ -1,0 +1,160 @@
+@import url('http://fonts.gogleapis.com/css2?family=poppins:wght@200;300;400;500;600;700;800;900@display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins',sans-serif;
+    
+}
+section{
+    width: 100%;
+    min-height: 100vh;
+    background: #0062be;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 100px;
+}
+header{
+    left: 0;
+    top: 0;
+    position: absolute;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 100px;
+    align-items: center;
+}
+header .logo{
+    position: relative;
+    max-width: 80px;
+}
+header ul{
+    position: relative;
+    display: flex;
+}
+header ul li{
+    list-style: none;
+    
+}
+header ul li a{
+    text-decoration: none;
+    color: #fff;
+    display: inline-block;
+    margin-left: 40px;
+    cursor: pointer;
+    font-weight: 400;
+}
+.content{
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    align-items: center;
+    
+}
+.content .textbox{
+    position: relative;
+    max-width: 600px;
+}
+.content .textbox h1{
+    font-size: 4em;
+    line-height: 1.5em;
+    color: #fff;
+    font-weight: 900;
+    text-transform: uppercase;
+}
+.content .textbox h1 span{
+    font-size: 1.5em;
+    
+}
+.content .textbox p{
+    color: #fff;
+    
+}
+.content .textbox a{
+    display: inline-block;
+    margin: 20px;
+    padding: 8px 25px;
+    background: #fff;
+    border-radius: 25px;
+    text-decoration: none;
+    color: #111;
+    text-transform: uppercase;
+    font-weight: 500;
+    
+    
+}
+.content .imgbox{
+    width: 600px;
+    position: relative;
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 50px;
+    margin-right: 40px;
+}
+.content .imgbox img{
+    max-width: 260px;
+}
+.thumb{
+    position: absolute;
+    display: flex;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 20px;
+    
+}
+.thumb li{
+    list-style: none;
+    display: inline-block;
+    margin: 0 20px;
+    cursor: pointer;
+    transition: 0.5s;
+    
+}
+
+.thumb li:hover{
+    transform: translateY(-15px);
+}
+.thumb li img{
+    max-width: 40px;
+}
+.sci{
+    position: absolute;
+    top: 50%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

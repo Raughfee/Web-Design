@@ -1,0 +1,184 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Noto+Sans+JP&family=Roboto&display=swap');
+/*font-family: font-family: 'Lobster', cursive;
+/*font-family:
+font-family: 'Noto Sans JP', sans-serif;
+font-family: 'Roboto', sans-serif;*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+.hero{
+    background: #1d2026;
+    min-height: 100vh;
+    width: 100%;
+    color: #fff;
+    position: relative;
+    overflow-y: hidden;
+    
+}
+nav{
+    display: flex;
+    align-items: center;
+    padding: 25px 8%;
+}
+nav .menu-img{
+    width: 25px;
+    margin-right: 20px;
+    cursor: pointer;
+
+}
+nav .logo{
+    width: 160px;
+    cursor: pointer;
+}
+nav ul{
+    flex: 1;
+    text-align: right;
+}
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    margin: 0 20px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: #fff;
+    font-family: 'Roboto',sans-serif;
+    
+}
+nav ul li::after{
+    content: '';
+    width: 0;
+    height: 2px;
+    background: #efefef;
+    margin: 1px auto;
+    display: block;
+    transition: 0.5s;
+    
+}
+nav ul li:hover::after{
+    width: 100%;
+}
+button{
+    background: #efefef;
+    height: 30px;
+    width: 60px;
+    border-radius: 20px;
+    border: 0;
+    outline: 0;
+    cursor: pointer;
+    margin-top: -3.5px;
+    transition: background 0.5s;
+}
+button span{
+    background: #999;
+    height: 26px;
+    width: 26px;
+    border-radius: 50%;
+    margin-left: 2px;
+    display: block;
+    transition: background 0.5s, margin-left 0.5s;
+    
+}
+.lamp-container{
+    position: absolute;
+    top: -20px;
+    width: 200px;
+    left: 22%;
+}
+.lamp{
+    width: 100%;
+    
+}
+.light{
+    position: absolute;
+    width: 700px;
+    top: 97%;
+    left: 50%;
+    transform: translateX(-50%);
+    margin-left: -10px;
+    opacity: 0;
+    transition: opacity 0.5s;
+}
+.text-container{
+    max-width: 600px;
+    margin-top: 7%;
+    margin-left: 50%;
+}
+.text-container h1{
+    font-size: 3.5rem;
+    font-weight: bolder;
+    color: #a22968;
+    font-family: 'Lobster',cursive;
+    
+    
+}
+.text-container p{
+    font-size: 1rem;
+    margin-top: 10px;
+    font-family: 'Noto Sans JP',sans-serif;
+}
+.text-container a{
+    color: #fff;
+    background: #00986f;
+    padding: 14px 44px;
+    text-decoration: none;
+    font-family: 'Noto Sans JP', sans-serif;
+    margin-top: 30px;
+    display: inline-block;
+    border-radius: 30px;
+    font-size: 18px;
+}
+.control{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    margin-top: 150px;
+    
+}
+.line{
+    width: 250px;
+    height: 4px;
+    background: #fff;
+    margin: 0 20px;
+    border-radius: 2px;
+}
+.control .line span{
+    width: 50%;
+    height: 8px;
+    display: block;
+    background: #00986f;
+    margin-top: -2px;
+    border-radius: 4px;
+} 
+.active{
+    background: green;
+}
+.active span{
+    background: #fff;
+    margin-left: 31px;
+}
+.on{
+    opacity: 1;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

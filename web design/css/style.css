@@ -1,0 +1,88 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: century gothic;
+}
+
+header {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../free-backgrounds-2.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+
+}
+
+ul {
+    float: right;
+    margin-top: 25px;
+    list-style-type: none;
+
+}
+
+ul li {
+    display: inline-block;
+}
+
+ul li a {
+    text-decoration: none;
+    padding: 5px 20px;
+    border: 1px solid transparent;
+    color: #fff;
+    transition: 0.6s ease;
+
+}
+
+ul li a:hover {
+    background: #fff;
+    color: blue;
+}
+
+.logo {}
+
+.logo img {
+    float: left;
+    width: 160px;
+    height: auto;
+    border: 2px solid blue;
+    margin: 20px -70px;
+
+
+}
+
+.main {
+    max-width: 1200px;
+    margin: auto;
+
+}
+
+.title {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.title h1 {
+    font-size: 60px;
+    color: #fff;
+}
+
+.button {
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.btn {
+    color: #fff;
+    border: 1px solid #fff;
+    text-decoration: none;
+    padding: 10px 20px;
+    margin: 2px;
+}
+
+.btn:hover {
+    background: #fff;
+    color: blue;
+}
